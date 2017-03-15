@@ -49,7 +49,7 @@ class RestaurantTableViewController: UITableViewController {
         // Configure the cell...
         cell.nameLabel.text = restaurantNames[indexPath.row]
         cell.thumbnailImageView.image = UIImage(named: restaurantImages[indexPath.row])
-        cell.thumbnailImageView.layer.cornerRadius = 30.0
+        cell.thumbnailImageView.layer.cornerRadius = 10.0
         cell.thumbnailImageView.clipsToBounds = true
 
         return cell
